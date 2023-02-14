@@ -1,0 +1,143 @@
+*{
+    font-family: 'Helvetica',"Apple Color Emoji","Segoe UI Emoji";
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+header{
+    text-align: center;
+    margin: 0 auto;
+    animation: fadein 2s;
+}
+
+body{
+    height: 100%;
+    background-color:#080c18;
+    margin: 0 auto;
+    text-align: center;
+     /* #e1e1e1; grey*/
+     /* #080c18; dark blue */
+     /* #2e3445; blue */
+     /* #fcd31c yellow */
+}
+
+main{
+    animation: fadein 2s;
+}
+
+.img-pokemon{
+    height: 130px;
+    margin: 20px 10px 0 10px;
+}
+
+.header-img{
+    height: 200px;
+    margin: 20px auto 20px auto;
+    padding: 0 auto;
+}
+
+h3{
+    margin: 0 0 15px 0;
+    color: #e1e1e1;
+}
+
+.div-buttons{
+    /* position: sticky; */
+    top: 0;
+    margin: 0;
+    padding: 8px;
+    background: #080c18;
+}
+
+
+.div-find{
+    text-align: center;
+}
+
+#find-input{
+    color: #333;
+    font-size: 0.8rem;
+    margin: 0 auto 20px auto;
+    padding: 0.7rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 20%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    /* transition: all 0.9s; */
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center; 
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.div-pokemon{
+    margin: 20px 10px 10px 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #5E5DF0;
+    border-radius: 20px;
+    box-shadow: #5E5DF0 0 10px 20px -15px;
+    box-sizing: border-box;
+    color: #e1e1e1;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    animation: fadein 3s;
+}
+
+span{
+    display: block;
+    color: #e1e1e1;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.btn-type {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #e1e1e1 0 10px 15px -15px;
+    box-sizing: border-box;
+    color: #e1e1e1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin: 0 2px 10px 2px;
+}
+
+li{
+    font-size: 0.6em;
+    margin: 0px 0px -10px 0px;
+    color: #080c18;
+}
+
+.ul-description{
+    padding: 0;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin: 5px 0px 15px 0px;
+}

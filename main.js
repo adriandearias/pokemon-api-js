@@ -11,7 +11,7 @@ function mapPokemons(arrayPokemons) {
     name: pokemon.name,
     type: pokemon.types.map((type) => type.type.name),
     weight: pokemon.weight,
-    img: pokemon.sprites.front_shiny,
+    img: pokemon.sprites['other']['official-artwork']['front_default'],
     abilities: pokemon.abilities[0].ability.name,
   }));
   return mappedPokemons;
@@ -42,7 +42,8 @@ function drawPokemons(mappedPokemons) {
     //divPokemon$$.classList -> cambiar
     setColor(divPokemon$$, pokemon.type[0]);
     img$$.setAttribute("src", pokemon.img);
-    img$$.setAttribute("class", "img-pokemon");
+    // img$$.setAttribute("class", "img-pokemon");
+    img$$.classList.add('img-pokemon', 'zoom')
 
     divPokemon$$.appendChild(span$$);
     const pokemonUppercase = pokemon.name;

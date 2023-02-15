@@ -2,6 +2,12 @@
     font-family: 'Helvetica',"Apple Color Emoji","Segoe UI Emoji";
 }
 
+@media screen and (max-width: 720px) {
+    .header-img {
+        height: 50% !important;
+    }
+}
+
 @keyframes fadein {
     from { opacity: 0}
     to   { opacity: 1}
@@ -15,11 +21,11 @@ header{
 
 body{
     height: 100%;
-    background-color:#080c18;
+    background-color:#1d2c5e;
     margin: 0 auto;
     text-align: center;
      /* #e1e1e1; grey*/
-     /* #080c18; dark blue */
+     /* #1d2c5e; dark blue */
      /* #2e3445; blue */
      /* #fcd31c yellow */
 }
@@ -47,9 +53,9 @@ h3{
 .div-buttons{
     /* position: sticky; */
     top: 0;
-    margin: 0;
+    margin: 10px 20px 0px 20px;
     padding: 8px;
-    background: #080c18;
+    background: #1d2c5e;
 }
 
 
@@ -65,7 +71,7 @@ h3{
     border-radius: 0.2rem;
     background-color: rgb(255, 255, 255);
     border: none;
-    width: 20%;
+    width: 30%;
     display: block;
     border-bottom: 0.3rem solid transparent;
     /* transition: all 0.9s; */

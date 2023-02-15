@@ -83,6 +83,8 @@ function setColor(element, type) {
     ice: "#74cec0",
     ghost: "#5269ac",
     dragon: "#0a6dc4",
+    //dark new type of 902 pokemons
+    dark: "#565061"
   };
   Object.assign(element.style, {
     background: colors[type],
@@ -126,6 +128,7 @@ function drawButtons(pokemons) {
       }
     }
   }
+  console.log(types);
   for (const type of types) {
     const btn$$ = document.createElement("button");
     divBtn$$.appendChild(btn$$);

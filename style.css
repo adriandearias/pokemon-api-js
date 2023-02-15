@@ -6,6 +6,10 @@
     .header-img {
         height: 50% !important;
     }
+    .h3{
+        margin: 0 15px 15px 15px;
+        color: #e1e1e1;
+    }
 }
 
 @keyframes fadein {
